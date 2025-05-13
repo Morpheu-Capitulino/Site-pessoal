@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <style>
+    body {
+          font-family: 'Poppins', sans-serif;
+          background-color: #f0f4f8;
+          margin: 0;
+          padding: 0;
+        }
+        header {
+          background-color: #0f172a;
+          color: white;
+          text-align: center;
+          padding: 30px 0;
+          font-family: 'Poppins', sans-serif;
+        }
+        main {
+          max-width: 800px;
+          margin: 40px auto;
+          padding: 0 20px;
+        }
+        section {
+          margin-bottom: 30px;
+        }
+        h2 {
+          color: #005f73;
+        }
+        footer {
+          text-align: center;
+          padding: 20px;
+          background-color: #005f73;
+          color: white;
+        }
+        img {
+          width: 150px;
+          border-radius: 50%;
+          display: block;
+          margin: 0 auto 20px;
+        }
+        @media (max-width: 600px) {
+        main {
+          flex-direction: column;
+          text-align: center;
+        }
+        img {
+          margin: 0 auto;
+        }
+        }
+        .card{
+          transition: 0.1s ease;
+          cursor: pointer;;
+        }
+        .card:hover{
+          transform: scale(1.1);
+        }
+        .botao-animado {
+        background-color: white;
+        color: #005f73;
+        border: 2px solid #005f73;
+        padding: 5px 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.4s, color 0.4s;
+        }
+        .botao-animado:hover {
+        background-color: #005f73;
+        color: white;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Morpheu Capitulino</h1>
+        <p>Bem vindo ao meu site pessoal</p>
+    </header>
+    <nav style="background-color:#005f73; padding:10px; text-align:center;">
+      <a href="Inicio.html" style="color:white; margin: 0 25px; text-decoration: none;">Início</a>
+      <a href="#"style="color:white; margin: 0 25px; text-decoration: none;">Projetos</a>
+    </nav>
+    <main>
+    <div style="display: flex; justify-content: center; gap: 80px; margin-top: 40px;">
+    <div style="text-align: center;">
+    <tr>
+    <h2 style="color: #005f73">Alguns dos meus projetos:</h2>    
+    <h4>Meu site pessoal:</h4>
+    <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+         <div class="card" ><button class="botao-animado" onclick="window.location.href='https://www.google.com'">Ver site</button></div>
+         <div class="card"><button class="botao-animado" onclick="window.location.href='https://github.com/Morpheu-Capitulino/Site-Pessoal.git'">GitHub</button></div>
+         
+    </div>
+    </div>
+    </div>
+</main>
+    <footer style="background-color: #0f172a; color: white; text-align: center; padding: 30px 0;">
+  <p>&copy; 2025 Morpheu Capitulino. Todos os direitos reservados.</p>
+  <p>Email: morpheuaquino36@email.com</p>
+  <p>Número: (83)98695-0364</p>
+</footer>
+</body>
+</html>
