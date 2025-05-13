@@ -100,4 +100,7 @@ body {
           flex-direction: column;
           text-align: center;
         }
-    }
+        img {
+          margin: 0 auto;
+        }
+        }
